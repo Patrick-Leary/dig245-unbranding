@@ -1,26 +1,28 @@
 /* css */
 body {
   background-color: lightblue;
+  display: table-cell;
+  vertical-align: middle;
+}
+html {
+    display: table;
+    margin: auto;
 }
 
 @font-face {
-  font-family: "Futura Press";
-  src: url(WagashiSerif_Beta1.otf) format("otf");
+  font-family: "MarlboroFont";
+  src: url(Marlboro.ttf);
 }
 
 h1 {
-  font-family: "Futura Press", sans-serif;
-}
-.text {
-    margin-top: 80px;
-    margin-left: 450px;
-}
+  font-family: "MarlboroFont";
+  font-size: 40px;
+}  
 
 /* before image */
 .nicBefore {
   position: relative;
   top: 200px;
-  left: 500px;
 }
 .marlboroBody {
   position: relative;
@@ -29,20 +31,19 @@ h1 {
 .marlboroTab {
   position: relative;
   z-index: 4;
-  top: 25px;
+  top: 35px;
 }
 .marlboroLid {
   position: relative;
   z-index: 3;
-  top: -147px;
-  left: -139px;
+  top: -239px;
+  left: -224px;
 }
 
 /* after image */
 .nicAfter {
   position: relative;
-  top: 49px;
-  left: 500px;
+  top: -44px;
 }
 .nicBody {
   position: relative;
@@ -51,8 +52,8 @@ h1 {
 .nicProducts {
   position: relative;
   z-index: 1;
-  top: -123px;
-  left: -135px;
+  top: -198px;
+  left: -220px;
 }
 
 .marlboroTab:hover {
