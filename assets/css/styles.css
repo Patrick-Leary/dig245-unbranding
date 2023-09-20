@@ -14,15 +14,18 @@ html {
   src: url(Marlboro.ttf);
 }
 
-h1 {
+p {
   font-family: "MarlboroFont";
   font-size: 40px;
-}  
+  margin-top: -45px;
+  margin-left: 160px;
+}
 
 /* before image */
 .nicBefore {
   position: relative;
   top: 200px;
+  margin-left: 160px;
 }
 .marlboroBody {
   position: relative;
@@ -44,6 +47,7 @@ h1 {
 .nicAfter {
   position: relative;
   top: -58px;
+  margin-left: 160px;
 }
 .nicBody {
   position: relative;
@@ -52,7 +56,7 @@ h1 {
 .nicProducts {
   position: relative;
   z-index: 1;
-  top: -210px;
+  top: -213px;
   left: -220px;
 }
 
