@@ -36,14 +36,14 @@ h1 {
 .marlboroLid {
   position: relative;
   z-index: 3;
-  top: -239px;
+  top: -253px;
   left: -224px;
 }
 
 /* after image */
 .nicAfter {
   position: relative;
-  top: -44px;
+  top: -58px;
 }
 .nicBody {
   position: relative;
@@ -52,7 +52,7 @@ h1 {
 .nicProducts {
   position: relative;
   z-index: 1;
-  top: -198px;
+  top: -210px;
   left: -220px;
 }
 
